@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(maxAge = 3600)
 public class TaskController {
     public TaskService taskService;
 
